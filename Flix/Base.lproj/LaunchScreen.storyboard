@@ -22,13 +22,14 @@
                                     <constraint firstAttribute="height" constant="225" id="b00-yG-7CB"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLIX" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPB-TC-Hud">
-                                <rect key="frame" x="136" y="418" width="142" height="87"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLIX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sP9-UM-7bk">
+                                <rect key="frame" x="96" y="408" width="222" height="97"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="87" id="fpx-N8-I5I"/>
+                                    <constraint firstAttribute="height" constant="97" id="k4r-UP-dxJ"/>
+                                    <constraint firstAttribute="width" constant="222" id="sUi-Cf-dtj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="80"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="74"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -36,11 +37,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Uit-a9-sNA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="109" id="2Ry-AC-Um1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="rPB-TC-Hud" secondAttribute="trailing" constant="136" id="ITu-xU-urD"/>
-                            <constraint firstItem="rPB-TC-Hud" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="Qz9-fv-7Ne"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sP9-UM-7bk" secondAttribute="trailing" constant="96" id="3g9-WG-owV"/>
+                            <constraint firstItem="sP9-UM-7bk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="DNq-db-vuu"/>
+                            <constraint firstItem="sP9-UM-7bk" firstAttribute="top" secondItem="Uit-a9-sNA" secondAttribute="bottom" constant="30" id="YbJ-Bn-qG9"/>
                             <constraint firstItem="Uit-a9-sNA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="rPP-Wg-Bb8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uit-a9-sNA" secondAttribute="trailing" constant="96" id="y0t-yT-uW2"/>
-                            <constraint firstItem="rPB-TC-Hud" firstAttribute="top" secondItem="Uit-a9-sNA" secondAttribute="bottom" constant="40" id="zT1-FN-uS6"/>
                         </constraints>
                     </view>
                 </viewController>
